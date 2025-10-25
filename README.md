@@ -94,7 +94,7 @@ I started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp.
 The operational dispatch system managing real-world crew scheduling and SMS communication. Features 102 React components, 69 library modules with 480+ exports, 12,000+ lines of documentation, and PM2/Docker deployment capability.
 
 **the-board** (In Active Development, October 2024 - Present)
-Next-generation platform applying production lessons: PostgreSQL for concurrent access, AI-powered SMS parsing, React Native mobile apps, advanced analytics dashboards, and third-party integration APIs.
+Next-generation platform scaling to **nationwide adoption** - connecting sister locals across provinces to help crew members find work anywhere. PostgreSQL for multi-tenant architecture, AI-powered SMS parsing, React Native mobile apps, cross-local worker discovery, and advanced analytics dashboards.
 
 ---
 
