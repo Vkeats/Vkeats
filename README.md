@@ -35,7 +35,7 @@ Testing:    Jest • Playwright • Integration tests
 - **Advanced Analytics**: Structured logging with correlation IDs and performance metrics
 - **Security First**: 100% API protection, rate limiting, failed login tracking
 
-📖 **[Read the Full Development Journey](https://github.com/Vkeats/crew-caller/blob/main/DEVELOPMENT_JOURNEY.md)** - From learning to code to production in 16 months
+📖 **[Read the Full Development Journey](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)** - From learning to code to production in 16 months
 
 ---
 
@@ -102,7 +102,7 @@ Phase 6: Next Generation (Oct 2025 - Future)
 - ✅ Modern stack (Next.js 15 + TypeScript) enables rapid iteration
 - ✅ Testing at every level prevents production issues
 
-[**Read the complete story →**](https://github.com/Vkeats/crew-caller/blob/main/DEVELOPMENT_JOURNEY.md)
+[**Read the complete story →**](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)
 
 ---
 
