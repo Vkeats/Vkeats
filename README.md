@@ -130,12 +130,6 @@ Phase 6: Next Generation (Oct 2025 - Future)
 
 ---
 
-## 📊 GitHub Stats
-
-![Ogden's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vkeats&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
-
----
-
 ## 🌟 Highlights & Achievements
 
 ### Production Impact
