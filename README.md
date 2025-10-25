@@ -75,23 +75,23 @@ Phase 1: Learning Fundamentals (Dec 2023 - Jun 2024)
 ├─ learning: Basic programming concepts
 └─ Dungeon-Crawler-Project: First complete project
 
-Phase 2: Early Prototypes (Mar 2025)
+Phase 2: Early Prototypes (Mar 2024)
 ├─ Appv2: Early web stack exploration
 ├─ Staff-Manager: First crew management system
 └─ Union-Local: Union workflow exploration
 
-Phase 3: Feature Development (Feb - Mar 2025)
+Phase 3: Feature Development (Feb - Mar 2024)
 ├─ iatse-dispatch: First dispatch system with SMS
 └─ Algorithm: Intelligent worker assignment algorithms ⭐
 
-Phase 4: Integration & Consolidation (Jun - Jul 2025)
+Phase 4: Integration & Consolidation (Jun - Jul 2024)
 ├─ UnionManager: Comprehensive platform integration
 └─ CallSteward-CSV-Wizard: Legacy data migration tools
 
-Phase 5: Production (Jun 2025 - Present)
+Phase 5: Production (Jun 2024 - Present)
 └─ crew-caller: Production-ready system with 84k+ records
 
-Phase 6: Next Generation (Oct 2025 - Future)
+Phase 6: Next Generation (Future)
 └─ the-board: Cloud-native PostgreSQL platform
 ```
 
