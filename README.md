@@ -94,7 +94,7 @@ I started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp.
 The operational dispatch system managing real-world crew scheduling and SMS communication. Features 102 React components, 69 library modules with 480+ exports, 12,000+ lines of documentation, and PM2/Docker deployment capability.
 
 **the-board** (In Active Development, October 2024 - Present)
-**Career marketplace and job discovery platform** for theatre crew - scaling beyond single-local dispatch to nationwide adoption. Workers browse live event opportunities across sister locals, plan career growth through courses and certifications, and discover which venues and positions they can train for. PostgreSQL for multi-tenant architecture, React Native mobile apps, AI-powered SMS parsing, and real-time job marketplace features.
+**Career marketplace platform** I'm building to solve workforce mobility problems I experienced firsthand. Workers currently lack visibility into opportunities across sister locals, career planning tools, or centralized training discovery. Building the solution: PostgreSQL multi-tenant architecture, React Native mobile apps, AI-powered SMS parsing, real-time job marketplace features.
 
 ---
 
