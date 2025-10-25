@@ -6,13 +6,14 @@
 
 ## Executive Summary
 
-**The Honest Version**: I didn't plan any of this. I just kept solving the next immediate problem in front of me. Sixteen months of "one more brick" turned into a production system managing 3,864 workers.
+**The Honest Version**: I didn't plan any of this. I just kept solving the next immediate problem in front of me. Sixteen months of "one more brick" turned into a production system managing 3,864 workers across hundreds of shows, sending hundreds of SMS messages daily.
 
 **Timeline**: Dec 2023 - Oct 2024 (16 months)
-**Pattern**: Problem → Ugly solution → Slightly less ugly solution → Repeat
+**Pattern**: Problem → Ugly solution → Break it → Fix it → Repeat
 **Repositories**: 11 failed experiments that taught me what actually works
-**Current State**: A system that actually works in production (shocking)
-**Key Metrics**: 84,544+ DB records, 17,668+ SMS processed, 141 API endpoints
+**Current State**: A system that actually works in production (shocking, even to me)
+**Scale**: Hundreds of shows dispatched, hundreds of daily SMS, 84,544+ DB records, 141 API endpoints
+**Lessons**: Database wipes teach backups. 1,000 accidental SMS teaches rate limiting. Production is the real teacher.
 
 **This isn't a story about planning. It's about stumbling forward until something clicked.**
 
@@ -144,13 +145,13 @@ This document traces the evolution of **The Board** from initial concept to prod
 - **Auth**: NextAuth.js with 100% API coverage
 
 **Production Statistics**:
-- **Workers**: 3,864 crew members
-- **Jobs**: 77 shows/events
-- **Positions**: 598 individual calls
-- **Assignments**: 319 active assignments
-- **SMS Logs**: 17,668 messages sent
+- **Workers**: 3,864 crew members actively managed
+- **Shows**: Hundreds dispatched in production (real shows, real crews)
+- **Daily Volume**: Hundreds of SMS messages sent daily
+- **Total SMS**: 17,668+ messages (and counting)
+- **Positions**: 598+ individual call positions
 - **Worker Skills**: 58,510 qualification records
-- **Database Size**: 84,544+ total records across 49 tables
+- **Database Size**: 84,544+ total records across 49 tables (after learning backups the hard way)
 
 **Key Features**:
 1. **Advanced Dispatch System**
@@ -330,6 +331,7 @@ the-board:             + PostgreSQL + Cloud-native + Microservices
 3. **"Architecture" = refactoring the same mess three times**: The service layer pattern emerged from copy-pasting the same code too many times
 4. **TypeScript saved me after JavaScript broke me**: I added TypeScript after JavaScript allowed too many stupid bugs
 5. **The 1,000 SMS incident taught me rate limiting**: Real mistakes teach better than best practices
+6. **Database wipe taught me backups**: Nothing teaches you backup strategies like watching everything disappear
 
 ### What I'd Still Do Differently
 1. **Actually, I'd probably do it exactly the same**: The mess taught me more than a clean path would have
@@ -396,11 +398,13 @@ gh repo edit Vkeats/the-board --description "Phase 6: Next-gen production system
 - **Limited automated testing for SMS flows**: Hard to test external SMS provider APIs reliably
 - **No proper staging environment**: Production database is carefully managed, but no separate staging instance
 - **Minimal error alerting**: PM2 logs + manual checking instead of automated monitoring/alerts
-- **No database backups automation**: Manual backups work, but not automated
+- **Database backups**: Now exist (learned this the hard way), but not automated
 - **Limited performance monitoring**: Basic logging without APM tools
 
-**Why This Is Acceptable**:
+**Why This Is Acceptable** (Now):
 These gaps are acceptable trade-offs for the current scale and single-developer context. The system is stable, serves real users reliably, and manual processes work at this scale. Perfect is the enemy of shipped—these gaps didn't prevent production deployment or reliable operation.
+
+**The database wipe taught me backups matter more than I thought.** Now I have manual backups. Automated backups are on the list.
 
 **Addressed in the-board Migration**:
 - **Phase 1**: CI/CD pipeline + staging environment setup
