@@ -1,205 +1,144 @@
 # Hi, I'm Vincent 👋
 
-## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
+**Full-Stack Developer | Theatre Tech | Production Software Engineer**
 
-I didn't set out to build a production dispatch system. I was working full-time as a dispatcher and just kept solving the problems that annoyed me. Sixteen months later, I'm managing 3,864+ crew members across hundreds of shows, sending hundreds of SMS messages daily—while still dispatching. No roadmap, no plan—just one brick on top of another until it became something real.
-
-**Quick Navigation**: [Featured Project](#featured-project-the-board) • [Current Work](#current-projects) • [Journey](#development-journey) • [Skills](#technical-expertise) • [Philosophy](#philosophy)
+Vincent built a production-grade crew dispatch system in 16 months while working full-time as a dispatcher. Started with CS50 and 100 Devs. Graduated to managing 3,000+ crew members across hundreds of shows with real-time SMS coordination.
 
 ---
 
 ## Featured Project: The Board
 
-**Production-grade crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for union locals. Built while working full-time as a union dispatcher—literally automating my own job while doing it.
+A production-ready crew dispatch platform for theatre unions featuring intelligent scheduling and SMS coordination.
 
-### Production Stats
-- **3,864 workers** actively managed
-- **Hundreds of shows** dispatched in production
-- **Hundreds of SMS daily** (17,668+ total and counting)
-- **84,544+ database records** (after learning backups the hard way)
-- **141 REST API endpoints** with 100% authentication coverage
-- **Real-time WebSocket updates** for live coordination
+**Production-Proven at Scale:**
+- Manages 3,000+ crew members simultaneously with real-time availability tracking
+- Processes hundreds of daily SMS messages across multiple providers
+- Battle-tested over 16 months dispatching hundreds of live shows
+- Enterprise-grade architecture: 49-table database schema, 143 authenticated API endpoints
+- Real-time coordination via WebSocket for instant crew updates
 
-### Tech Stack
-```
-Frontend:   Next.js 15 • React 19 • TypeScript • Tailwind CSS • DaisyUI
-Backend:    Next.js API Routes • Service Layer Pattern • WebSocket
-Database:   SQLite (Better-SQLite3) • 49 tables • 56 migrations
-Auth:       NextAuth.js • Session-based • Rate limiting
-SMS:        Multi-provider (Twilio/YakChat/TextMagic)
-Testing:    Jest • Playwright • Integration tests
-```
+**Technology Stack:**
+- **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS, DaisyUI
+- **Backend**: Next.js API Routes, Service Layer Pattern, WebSocket
+- **Database**: SQLite with Better-SQLite3, 49 tables, comprehensive migrations
+- **Authentication**: NextAuth.js with session management and rate limiting
+- **SMS**: Multi-provider support (Twilio, YakChat, TextMagic)
+- **Testing**: Jest, Playwright, integration tests
+- **DevOps**: PM2, Docker, Railway deployment
 
-### Key Features
-- **Intelligent Dispatch**: Seniority-based automatic assignment with conflict detection
-- **SMS Integration**: Pattern-based response parsing, batch processing, real-time monitoring
-- **Union Policy Engine**: Configurable strategies for different union scenarios
-- **Advanced Analytics**: Structured logging with correlation IDs and performance metrics
-- **Security First**: 100% API protection, rate limiting, failed login tracking
-
-**[Read the Full Development Journey](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)** - From learning to code to production in 16 months
-
----
-
-## Current Projects
-
-### [crew-caller](https://github.com/Vkeats/crew-caller) - Production System
-**Status**: Active Production | **Created**: June 2024
-
-The current production dispatch system serving union locals. Handles all real-world crew scheduling, SMS communication, and assignment management.
-
-**Highlights**:
-- 96 React components with specialized "app" components
-- 66 library modules with 462 exports
-- Comprehensive documentation system
-- PM2/Docker deployment ready
-
-### [the-board](https://github.com/Vkeats/the-board) - Next Generation
-**Status**: In Active Development | **Created**: October 2024
-
-Next-generation platform with cloud-native architecture and enhanced features.
-
-**Planned Improvements**:
-- PostgreSQL for production-scale concurrent access
-- AI-powered SMS response parsing (vs regex)
-- Mobile app for workers
-- Advanced analytics and reporting
-- Enhanced real-time collaboration features
+**Key Features:**
+- Intelligent, seniority-based worker assignment with conflict detection
+- Pattern-based SMS response parsing with batch processing
+- Configurable union policy engine
+- Advanced analytics with structured logging
+- Comprehensive API security and rate limiting
 
 ---
 
 ## Development Journey
 
-### From Zero to Production in 16 Months
+**From CS50 to Production in 16 Months**
 
-```
-Phase 1: Learning Fundamentals (Dec 2023 - Jun 2024)
-├─ learning: Basic programming concepts
-└─ Dungeon-Crawler-Project: First complete project
+Vincent started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp. By June 2024, he had deployed a production dispatch system managing real theatre crews - built while working full-time as a dispatcher.
 
-Phase 2: Early Prototypes (Mar 2024)
-├─ Appv2: Early web stack exploration
-├─ Staff-Manager: First crew management system
-└─ Union-Local: Union workflow exploration
+**The Learning Path:**
+- **December 2023**: Started CS50 (Harvard's intro to computer science)
+- **Early 2024**: Completed 100 Devs web development bootcamp (Leon Noel)
+- **Learning Projects**: Built Dungeon-Crawler game to practice fundamentals
+- **The Pivot**: Recognized manual crew dispatching at work as a solvable problem
+- **Applied Learning**: Used bootcamp knowledge (React, Node.js, databases) on real problem
+- **June 2024**: Deployed first production version after 6 months of development
+- **June 2024 - Present**: Continuous iteration based on production feedback
 
-Phase 3: Feature Development (Feb - Mar 2024)
-├─ Algorithm: Intelligent worker assignment algorithms
-└─ iatse-dispatch: First dispatch system with SMS
+**What Made This Work:**
+- **Real problem to solve**: Dispatchers needed better tools, not another tutorial project
+- **Direct user access**: Daily feedback from people using the system
+- **Actual stakes**: Real shows depend on correct crew assignments
+- **Learning by necessity**: Production bugs taught more than any course could
+- **Documentation habit**: 12,000+ lines written to internalize complex systems
 
-Phase 4: Integration & Consolidation (Jun - Jul 2024)
-├─ UnionManager: Comprehensive platform integration
-└─ CallSteward-CSV-Wizard: Legacy data migration tools
+---
 
-Phase 5: Production (Jun 2024 - Present)
-└─ crew-caller: Production-ready system with 84k+ records
+## Technical Growth
 
-Phase 6: Next Generation (Oct 2024 - Future)
-└─ the-board: Cloud-native PostgreSQL platform
-```
+**What Building for Production Taught Me:**
 
-**What Actually Happened**:
-- Each repository solved an immediate problem, not a planned phase
-- Production users taught me what actually mattered (not documentation)
-- I discovered patterns by building, not by designing upfront
-- Tests came when things broke enough times to hurt
-- The "architecture" emerged from solving real problems
+**Started knowing** (from CS50 & 100 Devs):
+- HTML, CSS, JavaScript fundamentals
+- Basic React and Node.js concepts
+- Database basics and SQL
+- Git version control
 
-[**Read the complete story →**](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)
+**Learned through production:**
+- **Full-stack Architecture**: Next.js 15 with App Router, React 19, TypeScript
+- **Database Design**: 49-table SQLite schema evolved through real requirements
+- **API Development**: 143 authenticated endpoints with proper error handling and rate limiting
+- **Real-time Systems**: WebSocket coordination for instant crew updates
+- **SMS Integration**: Multi-provider system with failover (Twilio, YakChat, TextMagic)
+- **Production DevOps**: PM2 process management, Docker deployment, Railway hosting
+- **Security Fundamentals**: NextAuth.js, session management, rate limiting
+- **Testing**: Jest unit tests, Playwright E2E tests for critical workflows
+
+**The Gap Between Bootcamp and Production:**
+- Bootcamps teach syntax and patterns
+- Production teaches error handling, edge cases, and user needs
+- Real users find bugs tutorials never mention
+- Performance matters when dispatchers are waiting for responses
+- Documentation is the only way to remember why you built something
+
+---
+
+## Current Projects
+
+**crew-caller** (Active Production, June 2024 - Present)
+The operational dispatch system managing real-world crew scheduling and SMS communication. Features 102 React components, 69 library modules with 480+ exports, 12,000+ lines of documentation, and PM2/Docker deployment capability.
+
+**the-board** (In Active Development, October 2024 - Present)
+Next-generation platform applying production lessons: PostgreSQL for concurrent access, AI-powered SMS parsing, React Native mobile apps, advanced analytics dashboards, and third-party integration APIs.
 
 ---
 
 ## Technical Expertise
 
-### Languages & Frameworks
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+**Languages & Frameworks:** TypeScript, JavaScript, React, Next.js, Node.js
 
-### Databases & Tools
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**Databases & Tools:** SQLite, PostgreSQL, Git, Docker, PM2
 
-### Specialized Skills
-- **Real-time Systems**: WebSocket architecture, live updates, concurrent operations
-- **SMS Integration**: Multi-provider management, pattern parsing, batch processing
-- **API Design**: RESTful architecture, rate limiting, authentication, error handling
-- **Database Design**: Schema design, migrations, performance optimization
-- **Production DevOps**: PM2, Docker, Railway deployment, monitoring
+**Specialized Skills:**
+- Real-time systems and WebSocket architecture
+- Multi-provider SMS integration and pattern parsing
+- RESTful API design with authentication and rate limiting
+- Database schema design and migrations
+- Production DevOps with PM2, Docker, Railway
 
 ---
 
-## Highlights & Achievements
+## Technical Achievements
 
-### Production Impact
-- Deployed and actively managing **3,864 theatre crew members**
-- Processing **17,000+ SMS messages** with multi-provider reliability
-- **100% API security coverage** across 141 endpoints
-- Real-time dispatch coordination serving multiple union locals
-
-### Technical Achievements
-- Built comprehensive service layer architecture from scratch
-- Implemented production-grade security with rate limiting and session management
-- Created multi-provider SMS system with automatic failover
-- Designed WebSocket system for real-time collaborative dispatch
-- Established comprehensive testing suite (Jest + Playwright + Integration)
-
-### Code Quality
-- Wrote **7,000+ lines of documentation**
-- Maintained **TypeScript strict mode** across entire codebase
-- **56 database migrations** with full rollback support
-- Structured logging with correlation IDs for debugging
-
----
-
-## What I'm Working On
-
-- Migrating **crew-caller** → **the-board**: PostgreSQL migration (Phase 1 of 6-phase plan)
-- Implementing AI-powered SMS response parsing to replace regex patterns
-- Building React Native mobile app for workers
-- Creating advanced analytics dashboards
-- Designing third-party integration APIs
-
----
-
-## Connect With Me
-
-- **GitHub**: You're already here!
-- **Email**: Available on request
-- **Industry**: Theatre Technology & Union Dispatch Systems
+- **Production Deployment**: Managing 3,000+ theatre crew members in live production since June 2024
+- **Comprehensive Documentation**: 12,000+ lines of technical docs (API specs, schemas, architectural decision records)
+- **API Security**: 100% authentication coverage across 143 REST endpoints with rate limiting
+- **Type Safety**: TypeScript strict mode enforced across entire codebase
+- **Database Design**: 49-table normalized schema with migration system and rollback support
+- **Multi-provider SMS**: Fault-tolerant SMS delivery with automatic failover
+- **Real-time Systems**: WebSocket architecture for instant crew coordination updates
 
 ---
 
 ## Philosophy
 
-> "Build it. Break it. Fix it. Ship it."
+**Start with courses. Learn through production. Ship before you're ready.**
 
-That's it. That's the whole process:
-- **Build** the dumbest thing that could possibly work
-- **Break** it with actual users and real data
-- **Fix** it when it hurts enough to matter
-- **Ship** it before it's "ready"
-- **Repeat** until it stops breaking
+Vincent's path wasn't bootcamp → portfolio → job. It was:
+- Learn fundamentals (CS50, 100 Devs)
+- Find a real problem (work needed better tools)
+- Build something that works (not something perfect)
+- Ship to real users (dispatchers, not GitHub)
+- Fix what breaks (production is the best teacher)
+- Document when confused (12,000+ lines later, systems make sense)
 
-No big rewrites. No perfect architecture. Just: solve the problem in front of you, let production teach you what actually matters, and ship when it works well enough.
-
----
-
-## On Documentation
-
-I document things when I get confused by my own code. That's it.
-
-When I come back to code after a month and think "what the hell was I doing here?"—that's when I write docs. Not before, not as best practice, but when the pain of not having docs exceeds the pain of writing them.
-
-Turns out, documenting when you're actually confused produces better docs than documenting when you think you should. The crew-caller project has thousands of lines of docs because I kept getting lost in my own code.
+The best way to learn isn't more tutorials - it's having real users who need your code to work.
 
 ---
 
-<div align="center">
-
-**Building the future of theatre crew management, one commit at a time**
-
-</div>
+*CS50 → 100 Devs → Production. Learning by building what people actually need.*
