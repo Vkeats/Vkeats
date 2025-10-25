@@ -42,7 +42,7 @@ Testing:    Jest • Playwright • Integration tests
 ## 🚀 Current Projects
 
 ### [crew-caller](https://github.com/Vkeats/crew-caller) - Production System
-**Status**: 🟢 Active Production | **Created**: June 2025
+**Status**: 🟢 Active Production | **Created**: June 2024
 
 The current production dispatch system serving union locals. Handles all real-world crew scheduling, SMS communication, and assignment management.
 
