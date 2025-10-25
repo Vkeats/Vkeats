@@ -1,6 +1,6 @@
 # Hi, I'm Vincent 👋
 
-**Full-Stack Developer | Theatre Tech | Production Software Engineer**
+**Full-Stack Developer | Product-Minded Engineer**
 
 I built a production-grade crew dispatch system in 16 months while working full-time as a dispatcher. Started with CS50 and 100 Devs. Now managing 3,000+ crew members across hundreds of shows with real-time SMS coordination.
 
