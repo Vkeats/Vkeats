@@ -34,9 +34,9 @@ This document traces the evolution of **The Board** from initial concept to prod
 
 ---
 
-### Phase 2: Early Prototypes (Mar - Jun 2025)
+### Phase 2: Early Prototypes (Mar - Jun 2024)
 
-#### **Appv2** (Mar 2025)
+#### **Appv2** (Mar 2024)
 **Status**: Archived
 **Technologies**: Early web stack exploration
 **Purpose**: Second generation application prototype
@@ -45,7 +45,7 @@ This document traces the evolution of **The Board** from initial concept to prod
 - Database modeling experiments
 - Early UI/UX patterns
 
-#### **Staff-Manager** (Mar 2025)
+#### **Staff-Manager** (Mar 2024)
 **Status**: Archived
 **Purpose**: First attempt at crew management system
 **Key Features**:
@@ -53,7 +53,7 @@ This document traces the evolution of **The Board** from initial concept to prod
 - Simple assignment tracking
 - Foundation for roster management concepts
 
-#### **Union-Local** (Mar 2025)
+#### **Union-Local** (Mar 2024)
 **Status**: Archived
 **Purpose**: Union-specific workflow exploration
 **Key Insights**:
@@ -63,9 +63,9 @@ This document traces the evolution of **The Board** from initial concept to prod
 
 ---
 
-### Phase 3: Feature Development & Iteration (Mar 2025)
+### Phase 3: Feature Development & Iteration (Mar 2024)
 
-#### **iatse-dispatch** (Mar 2025)
+#### **iatse-dispatch** (Mar 2024)
 **Status**: Archived
 **Purpose**: First dispatch-focused system
 **Breakthrough Features**:
@@ -73,7 +73,7 @@ This document traces the evolution of **The Board** from initial concept to prod
 - Dispatch workflow design
 - Job position management
 
-#### **Algorithm** (Feb - Mar 2025)
+#### **Algorithm** (Feb - Mar 2024)
 *"Union Worker Algorithm App"*
 
 **Status**: Archived
@@ -88,9 +88,9 @@ This document traces the evolution of **The Board** from initial concept to prod
 
 ---
 
-### Phase 4: Integration & Consolidation (Jun - Jul 2025)
+### Phase 4: Integration & Consolidation (Jun - Jul 2024)
 
-#### **UnionManager** (Jun 2025)
+#### **UnionManager** (Jun 2024)
 **Status**: Archived
 **Purpose**: Comprehensive union management platform
 **Key Integrations**:
@@ -99,7 +99,7 @@ This document traces the evolution of **The Board** from initial concept to prod
 - Database schema maturation
 - Multi-job support
 
-#### **CallSteward-CSV-Wizard** (Jul 2025)
+#### **CallSteward-CSV-Wizard** (Jul 2024)
 **Status**: Archived
 **Purpose**: Data migration and import tools
 **Critical Features**:
@@ -114,11 +114,11 @@ This document traces the evolution of **The Board** from initial concept to prod
 
 ### Phase 5: Production Development (Jun - Oct 2025)
 
-#### **crew-caller** (Jun 2025 - Present)
+#### **crew-caller** (Jun 2024 - Present)
 *"does my job for me"* - **CURRENT PRODUCTION SYSTEM**
 
 **Status**: Active Production
-**Created**: June 28, 2025
+**Created**: June 28, 2024
 **Last Updated**: October 25, 2025 (Active development)
 
 **Tech Stack**:
@@ -322,14 +322,14 @@ gh repo archive Vkeats/CallSteward-CSV-Wizard
 # Add context to repository descriptions
 gh repo edit Vkeats/learning --description "Phase 1: Learning fundamentals (Dec 2023) - See DEVELOPMENT_JOURNEY.md in crew-caller"
 gh repo edit Vkeats/Dungeon-Crawler-Project --description "Phase 1: First complete project (Jun 2024)"
-gh repo edit Vkeats/Appv2 --description "Phase 2: Early prototype (Mar 2025)"
-gh repo edit Vkeats/Staff-Manager --description "Phase 2: First crew management system (Mar 2025)"
-gh repo edit Vkeats/Union-Local --description "Phase 2: Union workflow exploration (Mar 2025)"
-gh repo edit Vkeats/iatse-dispatch --description "Phase 3: First dispatch system with SMS (Mar 2025)"
-gh repo edit Vkeats/Algorithm --description "Phase 3: Intelligent worker assignment algorithms (Feb-Mar 2025)"
-gh repo edit Vkeats/UnionManager --description "Phase 4: Comprehensive integration (Jun 2025)"
-gh repo edit Vkeats/CallSteward-CSV-Wizard --description "Phase 4: Legacy data migration tool (Jul 2025)"
-gh repo edit Vkeats/crew-caller --description "Phase 5: Production system - IATSE crew dispatch (Jun 2025 - Active)"
+gh repo edit Vkeats/Appv2 --description "Phase 2: Early prototype (Mar 2024)"
+gh repo edit Vkeats/Staff-Manager --description "Phase 2: First crew management system (Mar 2024)"
+gh repo edit Vkeats/Union-Local --description "Phase 2: Union workflow exploration (Mar 2024)"
+gh repo edit Vkeats/iatse-dispatch --description "Phase 3: First dispatch system with SMS (Mar 2024)"
+gh repo edit Vkeats/Algorithm --description "Phase 3: Intelligent worker assignment algorithms (Feb-Mar 2024)"
+gh repo edit Vkeats/UnionManager --description "Phase 4: Comprehensive integration (Jun 2024)"
+gh repo edit Vkeats/CallSteward-CSV-Wizard --description "Phase 4: Legacy data migration tool (Jul 2024)"
+gh repo edit Vkeats/crew-caller --description "Phase 5: Production system - IATSE crew dispatch (Jun 2024 - Active)"
 gh repo edit Vkeats/the-board --description "Phase 6: Next-gen production system - Cloud-native PostgreSQL (Oct 2025 - In Development)"
 ```
 
