@@ -1,6 +1,6 @@
 # Hi, I'm Vincent 👋
 
-## Full-Stack Developer | Theatre Tech | IATSE Union Software Engineer
+## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
 
 I build production-grade systems for the theatrical community, bringing modern technology to traditional union workflows.
 
@@ -8,7 +8,7 @@ I build production-grade systems for the theatrical community, bringing modern t
 
 ## 🎭 Featured Project: The Board
 
-**Production-grade IATSE crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for IATSE unions.
+**Production-grade crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for union locals. Built while working as a union dispatcher to solve real-world workflow challenges.
 
 ### 📊 Production Stats
 - 🎬 **3,864 workers** actively managed
@@ -44,7 +44,7 @@ Testing:    Jest • Playwright • Integration tests
 ### [crew-caller](https://github.com/Vkeats/crew-caller) - Production System
 **Status**: 🟢 Active Production | **Created**: June 2025
 
-The current production dispatch system serving IATSE unions. Handles all real-world crew scheduling, SMS communication, and assignment management.
+The current production dispatch system serving union locals. Handles all real-world crew scheduling, SMS communication, and assignment management.
 
 **Highlights**:
 - 96 React components with specialized "app" components
@@ -136,7 +136,7 @@ Phase 6: Next Generation (Oct 2025 - Future)
 - ✅ Deployed and actively managing **3,864 theatre crew members**
 - ✅ Processing **17,000+ SMS messages** with multi-provider reliability
 - ✅ **100% API security coverage** across 141 endpoints
-- ✅ Real-time dispatch coordination serving multiple IATSE unions
+- ✅ Real-time dispatch coordination serving multiple union locals
 
 ### Technical Achievements
 - 🏗️ Built comprehensive service layer architecture from scratch
@@ -157,7 +157,7 @@ Phase 6: Next Generation (Oct 2025 - Future)
 
 - 💼 **GitHub**: You're already here!
 - 📧 **Email**: Available on request
-- 🎭 **Industry**: IATSE Theatre Technology
+- 🎭 **Industry**: Theatre Technology & Union Dispatch Systems
 
 ---
 
