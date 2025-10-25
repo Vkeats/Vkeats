@@ -193,18 +193,7 @@ Every project includes:
 - 📊 API reference with examples
 - 🧪 Testing documentation and strategies
 
-**Example**: [crew-caller documentation](https://github.com/Vkeats/crew-caller/blob/main/README.md) includes 8 major documentation files covering everything from deployment to development workflows.
-
----
-
-<div align="center">
-
-### 🌟 Featured Repositories
-
-[![crew-caller](https://github-readme-stats.vercel.app/api/pin/?username=Vkeats&repo=crew-caller&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Vkeats/crew-caller)
-[![the-board](https://github-readme-stats.vercel.app/api/pin/?username=Vkeats&repo=the-board&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Vkeats/the-board)
-
-</div>
+**Example**: The crew-caller project includes 8 major documentation files covering everything from deployment to development workflows, with comprehensive API references and architecture guides.
 
 ---
 
