@@ -2,7 +2,7 @@
 
 ## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
 
-I didn't set out to build a production dispatch system. I just kept solving the next problem. Sixteen months later, I'm managing 3,864+ crew members across hundreds of shows, sending hundreds of SMS messages daily. No roadmap, no plan—just one brick on top of another until it became something real.
+I didn't set out to build a production dispatch system. I was working full-time as a dispatcher and just kept solving the problems that annoyed me. Sixteen months later, I'm managing 3,864+ crew members across hundreds of shows, sending hundreds of SMS messages daily—while still dispatching. No roadmap, no plan—just one brick on top of another until it became something real.
 
 **Quick Navigation**: [Featured Project](#featured-project-the-board) • [Current Work](#current-projects) • [Journey](#development-journey) • [Skills](#technical-expertise) • [Philosophy](#philosophy)
 
@@ -10,7 +10,7 @@ I didn't set out to build a production dispatch system. I just kept solving the 
 
 ## Featured Project: The Board
 
-**Production-grade crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for union locals. Built while working as a union dispatcher to solve real-world workflow challenges.
+**Production-grade crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for union locals. Built while working full-time as a union dispatcher—literally automating my own job while doing it.
 
 ### Production Stats
 - **3,864 workers** actively managed

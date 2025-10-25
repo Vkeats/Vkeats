@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-**The Honest Version**: I didn't plan any of this. I just kept solving the next immediate problem in front of me. Sixteen months of "one more brick" turned into a production system managing 3,864 workers across hundreds of shows, sending hundreds of SMS messages daily.
+**The Honest Version**: I didn't plan any of this. I was working full-time as a dispatcher and just kept solving the problems that annoyed me. Sixteen months of "one more brick"—built between actual dispatch shifts—turned into a production system managing 3,864 workers across hundreds of shows, sending hundreds of SMS messages daily.
 
 **Timeline**: Dec 2023 - Oct 2024 (16 months)
 **Pattern**: Problem → Ugly solution → Break it → Fix it → Repeat
@@ -322,8 +322,9 @@ the-board:             + PostgreSQL + Cloud-native + Microservices
 
 ### For Theatre Tech (Or Any Domain Expert Learning to Code)
 1. **Your domain knowledge is the cheat code**: I understood dispatch workflows better than I understood JavaScript—that mattered more
-2. **Build for yourself first**: I was my own first user. That feedback loop was invaluable
+2. **Build for yourself first**: I was my own first user, using it while dispatching full-time. That feedback loop was invaluable
 3. **Users forgive bad UI if it solves their problem**: My first interfaces were terrible. Nobody cared because it saved them hours
+4. **Build during the job, not after**: I built this while dispatching full-time. The problems were fresh, the pain was real, the motivation was immediate
 
 ### What Actually Happened (Not What I Planned)
 1. **No tests until things broke enough to hurt**: Tests came after the third time I broke SMS in production
@@ -617,9 +618,9 @@ Here's the truth: I didn't build a production dispatch system. I just refused to
 
 ### What Really Happened
 
-I started with "I need to learn to code." Then it became "I need to track crew members." Then "I need to send SMS." Then "I need to handle responses." Each time, I built the dumbest thing that could possibly work.
+I started with "I need to learn to code." Then it became "I need to track crew members." Then "I need to send SMS." Then "I need to handle responses." Each time, I built the dumbest thing that could possibly work—usually between dispatch shifts, sometimes during slow days, often late at night.
 
-**Eleven repositories later**, those dumb things had turned into something that actually works. Not because I'm clever—because I kept showing up and refused to let problems stay unsolved.
+**Eleven repositories later**, those dumb things had turned into something that actually works. Not because I'm clever—because I was using it every day for my actual job and refused to let problems stay unsolved. Hard to ignore bugs when they're breaking your own workflow.
 
 ### The Pattern That Emerged
 
