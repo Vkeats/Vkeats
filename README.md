@@ -175,27 +175,26 @@ Phase 6: Next Generation (Oct 2024 - Future)
 
 ## Philosophy
 
-> "Modern technology should enhance traditional workflows, not replace them. The best software respects the domain expertise of its users while automating the tedious parts."
+> "Build it. Break it. Fix it. Ship it."
 
-I believe in:
-- **Incremental iteration** over big rewrites
-- **Production feedback** over theoretical perfection
-- **Documentation** as a force multiplier
-- **Testing** as a requirement, not an afterthought
-- **User needs** over technical ego
+That's it. That's the whole process:
+- **Build** the dumbest thing that could possibly work
+- **Break** it with actual users and real data
+- **Fix** it when it hurts enough to matter
+- **Ship** it before it's "ready"
+- **Repeat** until it stops breaking
+
+No big rewrites. No perfect architecture. Just: solve the problem in front of you, let production teach you what actually matters, and ship when it works well enough.
 
 ---
 
-## Documentation Philosophy
+## On Documentation
 
-Every project includes:
-- Comprehensive README with quick start guides
-- Architecture documentation explaining design decisions
-- Development guides for contributor onboarding
-- API reference with examples
-- Testing documentation and strategies
+I document things when I get confused by my own code. That's it.
 
-**Example**: The crew-caller project includes 8 major documentation files covering everything from deployment to development workflows, with comprehensive API references and architecture guides.
+When I come back to code after a month and think "what the hell was I doing here?"—that's when I write docs. Not before, not as best practice, but when the pain of not having docs exceeds the pain of writing them.
+
+Turns out, documenting when you're actually confused produces better docs than documenting when you think you should. The crew-caller project has thousands of lines of docs because I kept getting lost in my own code.
 
 ---
 
