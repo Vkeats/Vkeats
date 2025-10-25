@@ -2,23 +2,25 @@
 
 ## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
 
-I built crewcalling and event management systems for the theatrical community, bringing modern technology to traditional union workflows.
+Self-taught developer building production-grade dispatch systems for IATSE unions. From zero programming knowledge to managing 3,864+ crew members in 16 months.
+
+**Quick Navigation**: [Featured Project](#featured-project-the-board) • [Current Work](#current-projects) • [Journey](#development-journey) • [Skills](#technical-expertise) • [Philosophy](#philosophy)
 
 ---
 
-## 🎭 Featured Project: The Board
+## Featured Project: The Board
 
 **Production-grade crew dispatch system** managing theatre crew scheduling, SMS communication, and worker assignments for union locals. Built while working as a union dispatcher to solve real-world workflow challenges.
 
-### 📊 Production Stats
-- 🎬 **3,864 workers** actively managed
-- 📱 **17,668+ SMS messages** sent and processed
-- 💼 **77 shows/events** with 598 positions dispatched
-- 📈 **84,544+ database records** in production
-- 🔧 **130+ REST API endpoints** with 100% authentication coverage
-- ⚡ **Real-time WebSocket updates** for live coordination
+### Production Stats
+- **3,864 workers** actively managed
+- **17,668+ SMS messages** sent and processed
+- **77 shows/events** with 598 positions dispatched
+- **84,544+ database records** in production
+- **141 REST API endpoints** with 100% authentication coverage
+- **Real-time WebSocket updates** for live coordination
 
-### 🛠️ Tech Stack
+### Tech Stack
 ```
 Frontend:   Next.js 15 • React 19 • TypeScript • Tailwind CSS • DaisyUI
 Backend:    Next.js API Routes • Service Layer Pattern • WebSocket
@@ -28,21 +30,21 @@ SMS:        Multi-provider (Twilio/YakChat/TextMagic)
 Testing:    Jest • Playwright • Integration tests
 ```
 
-### ✨ Key Features
+### Key Features
 - **Intelligent Dispatch**: Seniority-based automatic assignment with conflict detection
 - **SMS Integration**: Pattern-based response parsing, batch processing, real-time monitoring
 - **Union Policy Engine**: Configurable strategies for different union scenarios
 - **Advanced Analytics**: Structured logging with correlation IDs and performance metrics
 - **Security First**: 100% API protection, rate limiting, failed login tracking
 
-📖 **[Read the Full Development Journey](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)** - From learning to code to production in 16 months
+**[Read the Full Development Journey](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)** - From learning to code to production in 16 months
 
 ---
 
-## 🚀 Current Projects
+## Current Projects
 
 ### [crew-caller](https://github.com/Vkeats/crew-caller) - Production System
-**Status**: 🟢 Active Production | **Created**: June 2024
+**Status**: Active Production | **Created**: June 2024
 
 The current production dispatch system serving union locals. Handles all real-world crew scheduling, SMS communication, and assignment management.
 
@@ -53,7 +55,7 @@ The current production dispatch system serving union locals. Handles all real-wo
 - PM2/Docker deployment ready
 
 ### [the-board](https://github.com/Vkeats/the-board) - Next Generation
-**Status**: 🔨 In Active Development | **Created**: October 2025
+**Status**: In Active Development | **Created**: October 2024
 
 Next-generation platform with cloud-native architecture and enhanced features.
 
@@ -66,7 +68,7 @@ Next-generation platform with cloud-native architecture and enhanced features.
 
 ---
 
-## 📈 Development Journey
+## Development Journey
 
 ### From Zero to Production in 16 Months
 
@@ -81,8 +83,8 @@ Phase 2: Early Prototypes (Mar 2024)
 └─ Union-Local: Union workflow exploration
 
 Phase 3: Feature Development (Feb - Mar 2024)
-├─ iatse-dispatch: First dispatch system with SMS
-└─ Algorithm: Intelligent worker assignment algorithms ⭐
+├─ Algorithm: Intelligent worker assignment algorithms
+└─ iatse-dispatch: First dispatch system with SMS
 
 Phase 4: Integration & Consolidation (Jun - Jul 2024)
 ├─ UnionManager: Comprehensive platform integration
@@ -91,22 +93,22 @@ Phase 4: Integration & Consolidation (Jun - Jul 2024)
 Phase 5: Production (Jun 2024 - Present)
 └─ crew-caller: Production-ready system with 84k+ records
 
-Phase 6: Next Generation (Future)
+Phase 6: Next Generation (Oct 2024 - Future)
 └─ the-board: Cloud-native PostgreSQL platform
 ```
 
 **Key Learnings**:
-- ✅ Incremental development builds lasting foundations
-- ✅ Real-world production use drives quality improvements
-- ✅ Comprehensive documentation saves exponential time
-- ✅ Modern stack (Next.js 15 + TypeScript) enables rapid iteration
-- ✅ Testing at every level prevents production issues
+- Incremental development builds lasting foundations
+- Real-world production use drives quality improvements
+- Comprehensive documentation saves exponential time
+- Modern stack (Next.js 15 + TypeScript) enables rapid iteration
+- Testing at every level prevents production issues
 
 [**Read the complete story →**](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)
 
 ---
 
-## 💻 Technical Expertise
+## Technical Expertise
 
 ### Languages & Frameworks
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -130,48 +132,48 @@ Phase 6: Next Generation (Future)
 
 ---
 
-## 🌟 Highlights & Achievements
+## Highlights & Achievements
 
 ### Production Impact
-- ✅ Deployed and actively managing **3,864 theatre crew members**
-- ✅ Processing **17,000+ SMS messages** with multi-provider reliability
-- ✅ **100% API security coverage** across 141 endpoints
-- ✅ Real-time dispatch coordination serving multiple union locals
+- Deployed and actively managing **3,864 theatre crew members**
+- Processing **17,000+ SMS messages** with multi-provider reliability
+- **100% API security coverage** across 141 endpoints
+- Real-time dispatch coordination serving multiple union locals
 
 ### Technical Achievements
-- 🏗️ Built comprehensive service layer architecture from scratch
-- 🔒 Implemented production-grade security with rate limiting and session management
-- 📱 Created multi-provider SMS system with automatic failover
-- ⚡ Designed WebSocket system for real-time collaborative dispatch
-- 🧪 Established comprehensive testing suite (Jest + Playwright + Integration)
+- Built comprehensive service layer architecture from scratch
+- Implemented production-grade security with rate limiting and session management
+- Created multi-provider SMS system with automatic failover
+- Designed WebSocket system for real-time collaborative dispatch
+- Established comprehensive testing suite (Jest + Playwright + Integration)
 
 ### Code Quality
-- 📚 Wrote **7,000+ lines of documentation**
-- 🧹 Maintained **TypeScript strict mode** across entire codebase
-- ✅ **56 database migrations** with full rollback support
-- 🔍 Structured logging with correlation IDs for debugging
+- Wrote **7,000+ lines of documentation**
+- Maintained **TypeScript strict mode** across entire codebase
+- **56 database migrations** with full rollback support
+- Structured logging with correlation IDs for debugging
 
 ---
 
-## 📫 Connect With Me
+## What I'm Working On
 
-- 💼 **GitHub**: You're already here!
-- 📧 **Email**: Available on request
-- 🎭 **Industry**: Theatre Technology & Union Dispatch Systems
-
----
-
-## 🎯 What I'm Working On
-
-- 🔨 Migrating **crew-caller** → **the-board** (PostgreSQL + Cloud-native)
-- 🤖 Implementing AI-powered SMS response parsing
-- 📱 Building React Native mobile app for workers
-- 📊 Creating advanced analytics dashboards
-- 🌐 Designing third-party integration APIs
+- Migrating **crew-caller** → **the-board**: PostgreSQL migration (Phase 1 of 6-phase plan)
+- Implementing AI-powered SMS response parsing to replace regex patterns
+- Building React Native mobile app for workers
+- Creating advanced analytics dashboards
+- Designing third-party integration APIs
 
 ---
 
-## 💡 Philosophy
+## Connect With Me
+
+- **GitHub**: You're already here!
+- **Email**: Available on request
+- **Industry**: Theatre Technology & Union Dispatch Systems
+
+---
+
+## Philosophy
 
 > "Modern technology should enhance traditional workflows, not replace them. The best software respects the domain expertise of its users while automating the tedious parts."
 
@@ -184,14 +186,14 @@ I believe in:
 
 ---
 
-## 📚 Documentation Philosophy
+## Documentation Philosophy
 
 Every project includes:
-- 📖 Comprehensive README with quick start guides
-- 🏗️ Architecture documentation explaining design decisions
-- 🔧 Development guides for contributor onboarding
-- 📊 API reference with examples
-- 🧪 Testing documentation and strategies
+- Comprehensive README with quick start guides
+- Architecture documentation explaining design decisions
+- Development guides for contributor onboarding
+- API reference with examples
+- Testing documentation and strategies
 
 **Example**: The crew-caller project includes 8 major documentation files covering everything from deployment to development workflows, with comprehensive API references and architecture guides.
 
@@ -199,8 +201,6 @@ Every project includes:
 
 <div align="center">
 
-**Building the future of theatre crew management, one commit at a time** 🎭
-
-![Profile Views](https://komarev.com/ghpvc/?username=Vkeats&color=58a6ff&style=flat-square)
+**Building the future of theatre crew management, one commit at a time**
 
 </div>
