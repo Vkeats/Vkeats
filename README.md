@@ -2,7 +2,7 @@
 
 ## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
 
-Self-taught developer building production-grade dispatch systems for IATSE unions. From zero programming knowledge to managing 3,864+ crew members in 16 months.
+I didn't set out to build a production dispatch system. I just kept solving the next problem. Sixteen months later, I'm managing 3,864+ crew members and 17,668+ SMS messages. No roadmap, no plan—just one brick on top of another until it became something real.
 
 **Quick Navigation**: [Featured Project](#featured-project-the-board) • [Current Work](#current-projects) • [Journey](#development-journey) • [Skills](#technical-expertise) • [Philosophy](#philosophy)
 
@@ -97,12 +97,12 @@ Phase 6: Next Generation (Oct 2024 - Future)
 └─ the-board: Cloud-native PostgreSQL platform
 ```
 
-**Key Learnings**:
-- Incremental development builds lasting foundations
-- Real-world production use drives quality improvements
-- Comprehensive documentation saves exponential time
-- Modern stack (Next.js 15 + TypeScript) enables rapid iteration
-- Testing at every level prevents production issues
+**What Actually Happened**:
+- Each repository solved an immediate problem, not a planned phase
+- Production users taught me what actually mattered (not documentation)
+- I discovered patterns by building, not by designing upfront
+- Tests came when things broke enough times to hurt
+- The "architecture" emerged from solving real problems
 
 [**Read the complete story →**](https://github.com/Vkeats/Vkeats/blob/master/DEVELOPMENT_JOURNEY.md)
 
