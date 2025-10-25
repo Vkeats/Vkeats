@@ -2,7 +2,7 @@
 
 ## Full-Stack Developer | Theatre Tech | Union Dispatch Software Engineer
 
-I built a crewcalling systems for the theatrical community, bringing modern technology to traditional union workflows.
+I built crewcalling and event management systems for the theatrical community, bringing modern technology to traditional union workflows.
 
 ---
 
