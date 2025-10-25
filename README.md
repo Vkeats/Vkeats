@@ -8,7 +8,7 @@ I built a production-grade crew dispatch system in 16 months while working full-
 
 ## Featured Project: The Board
 
-A production-ready crew dispatch platform for theatre unions featuring intelligent scheduling and SMS coordination.
+Started as a crew dispatch system. Evolving into a **nationwide career marketplace** where theatre workers discover job opportunities across locals, plan career growth through certifications, and find training opportunities.
 
 **Production-Proven at Scale:**
 - Manages 3,000+ crew members simultaneously with real-time availability tracking
@@ -94,7 +94,7 @@ I started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp.
 The operational dispatch system managing real-world crew scheduling and SMS communication. Features 102 React components, 69 library modules with 480+ exports, 12,000+ lines of documentation, and PM2/Docker deployment capability.
 
 **the-board** (In Active Development, October 2024 - Present)
-Next-generation platform scaling to **nationwide adoption** - connecting sister locals across provinces to help crew members find work anywhere. PostgreSQL for multi-tenant architecture, AI-powered SMS parsing, React Native mobile apps, cross-local worker discovery, and advanced analytics dashboards.
+**Career marketplace and job discovery platform** for theatre crew - scaling beyond single-local dispatch to nationwide adoption. Workers browse live event opportunities across sister locals, plan career growth through courses and certifications, and discover which venues and positions they can train for. PostgreSQL for multi-tenant architecture, React Native mobile apps, AI-powered SMS parsing, and real-time job marketplace features.
 
 ---
 
@@ -106,6 +106,8 @@ Next-generation platform scaling to **nationwide adoption** - connecting sister 
 
 **Specialized Skills:**
 - Real-time systems and WebSocket architecture
+- Multi-tenant SaaS architecture and data isolation
+- Job marketplace and discovery systems
 - Multi-provider SMS integration and pattern parsing
 - RESTful API design with authentication and rate limiting
 - Database schema design and migrations
