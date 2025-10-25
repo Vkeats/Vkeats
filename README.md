@@ -2,7 +2,7 @@
 
 **Full-Stack Developer | Theatre Tech | Production Software Engineer**
 
-Vincent built a production-grade crew dispatch system in 16 months while working full-time as a dispatcher. Started with CS50 and 100 Devs. Graduated to managing 3,000+ crew members across hundreds of shows with real-time SMS coordination.
+I built a production-grade crew dispatch system in 16 months while working full-time as a dispatcher. Started with CS50 and 100 Devs. Now managing 3,000+ crew members across hundreds of shows with real-time SMS coordination.
 
 ---
 
@@ -39,7 +39,7 @@ A production-ready crew dispatch platform for theatre unions featuring intellige
 
 **From CS50 to Production in 16 Months**
 
-Vincent started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp. By June 2024, he had deployed a production dispatch system managing real theatre crews - built while working full-time as a dispatcher.
+I started with Harvard's CS50 (December 2023) and Leon Noel's 100 Devs bootcamp. By June 2024, I had deployed a production dispatch system managing real theatre crews - built while working full-time as a dispatcher.
 
 **The Learning Path:**
 - **December 2023**: Started CS50 (Harvard's intro to computer science)
@@ -129,7 +129,7 @@ Next-generation platform applying production lessons: PostgreSQL for concurrent 
 
 **Start with courses. Learn through production. Ship before you're ready.**
 
-Vincent's path wasn't bootcamp → portfolio → job. It was:
+My path wasn't bootcamp → portfolio → job. It was:
 - Learn fundamentals (CS50, 100 Devs)
 - Find a real problem (work needed better tools)
 - Build something that works (not something perfect)
